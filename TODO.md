@@ -8,7 +8,8 @@ Status markers: `[ ]` todo · `[~]` in progress (design presented, awaiting deci
 
 ## Phase 1 — Foundation
 
-- [ ] **Studio identity brief** — Define who Rollbard Studios is: mission line, tone/voice, audience, what makes it distinct. Output: `docs/brand.md`.
+- [x] **Studio identity brief** — Define who Rollbard Studios is: mission line, tone/voice, audience, what makes it distinct. Output: `docs/brand.md`.
+- [ ] **Fill brand brief TBDs** — Answer the open items in `docs/brand.md`: studio size and "I" vs "we", current/planned projects, genre leaning, distinctness statements, promises to players, name origin.
 - [ ] **Site goals & sitemap** — Decide what the site must do (showcase games, build a mailing list, sell, host rules/downloads, devlog) and the page structure that serves it.
 - [ ] **Tech stack decision** — React is decided. Choose the React setup (e.g. Vite + React SPA, Next.js, Astro with React islands), TypeScript or not, styling approach, and hosting/deploy target for rollbard.com.
 - [ ] **Clean slate** — Delete everything from the old Vue scaffold (src, public, configs, package.json, lockfile, node_modules) and set up the chosen React stack, linting/formatting, and a working dev/build.
@@ -46,3 +47,4 @@ Status markers: `[ ]` todo · `[~]` in progress (design presented, awaiting deci
 Record the outcome of each approved design here (date, item, decision) so later items build on it.
 
 - 2026-11-19 — Starting over — None of the existing repo contents need to be kept. The site will be built with React.
+- 2026-11-20 — Studio identity brief — Wrote `docs/brand.md`. Mission line: "We make games worth retelling." Name read as roll (dice) + bard (storyteller). Audience: TTRPG players/GMs first, indie video game players second, press third. Voice: warm and wry, plain over purple, confident not hype, defaults to "we". Studio-specific facts are left as TBDs (follow-up item added).
