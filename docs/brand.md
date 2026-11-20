@@ -2,15 +2,11 @@
 
 This is the reference for who Rollbard Studios is. Site structure, visuals and copy should all match it.
 
-> Items marked **TBD** are waiting on the studio's answers. Replace them when they're known.
-
 ## 1. Name & origin
 
 **Rollbard** = *roll* (the dice) + *bard* (the storyteller): chance and story.
 
 The name covers both sides of the studio. On the tabletop, dice are rolled and stories are told. In video games, systems create surprises and players come away with stories. Copy and visuals can use this theme lightly (dice, songs, tales retold), but it shouldn't turn into a gimmick.
-
-*TBD: confirm this reading of the name, or give its real origin.*
 
 ## 2. Mission line
 
@@ -22,54 +18,51 @@ Alternates kept on file:
 - "Games where the dice and the story roll together."
 - "Tabletop and digital games built for the stories players tell."
 
-## 3. What we make
+## 3. Who we are
 
-- **Tabletop RPGs**: core rulebooks, adventures, supplements, and free resources (quickstarts, character sheets, one-page games).
-- **Video games**: indie titles, ideally sharing worlds, themes or design ideas with the tabletop line, so Rollbard reads as one studio and not two.
+Rollbard Studios is a one-person studio run by a game designer whose strength is mechanics: systems, rules and the way a game plays. The copy says **"we"** so it reads as a studio, not a personal blog.
 
-*TBD: current and planned projects (name, type, genre, status).*
-*TBD: genre or mood leaning (e.g. cozy fantasy, grim, weird/comedic, sci-fi), or deliberately broad.*
+## 4. What we make
 
-## 4. Audience
+**Retro-inspired science-fantasy.** Rollbard games take their cue from classic video games (32-bit-era JRPGs, Atari-era arcade games) and lean toward worlds where magic and machines meet.
+
+- **Tabletop RPGs**: rulebooks, character sheets and GM resources.
+- **Video games**: small, tight arcade-style games for the browser and phones.
+
+### Current projects
+
+| Project | Type | Pitch | Status |
+|---|---|---|---|
+| **Terra Machina** | Tabletop RPG | A fantasy world that has advanced into an age of technology, where the gods of the machine coexist with the gods of the natural world. Inspired by 32-bit-era JRPGs. | In development (v1 rulebook exists; the new version is being redesigned) |
+| **SuperSphere** | Arcade video game (browser + mobile) | A sci-fi prisoner makes a break for it: steer a ball that never stops along zigzag paths to reach the green star. Every five levels, it gets faster. Stark Atari-style black and white. | In development (design and planning) |
+
+## 5. Audience
 
 | Priority | Who | What they want from the site |
 |---|---|---|
-| Primary | TTRPG players and GMs who buy indie games (itch.io, DriveThruRPG, crowdfunding backers) | What's out, what's coming, free stuff to try, where to buy |
-| Secondary | Indie video game players, often the same people | Trailers, platforms, wishlist/buy links |
+| Primary | TTRPG players and GMs who buy indie games (itch.io, DriveThruRPG, crowdfunding backers), especially fans of JRPGs | What's out, what's coming, free stuff to try, where to buy |
+| Secondary | Indie and retro arcade video game players, often the same people | Play links, platforms, store links |
 | Tertiary | Press, publishers, collaborators | Press kit, contact, studio background |
 
-## 5. Voice & tone
+## 6. Voice & tone
 
 **Warm and wry**, like a good GM at the table: friendly, a little playful, never corporate.
 
 - **Plain over purple.** Flavour text belongs in the games. Site copy is clear and direct.
 - **Confident, not hype.** Show the work, skip the superlatives.
 - **Inviting.** Assume the reader might be new to tabletop RPGs, and never gatekeep.
-- **Person:** *TBD: "I" (solo) or "we" (team).* Use "we" until this is decided.
+- **Person:** always "we".
 
 ### Do / Don't
 
 | ✅ Do | ❌ Don't |
 |---|---|
 | "Our first adventure is out." | "An EPIC journey AWAITS!" |
-| "Grab the free quickstart and run it tonight." | "Unlock exclusive content now!" |
-| "It's a small game about big mistakes." | "The most innovative RPG experience ever made." |
+| "Roll 2d10, add your modifiers. That's the core of it." | "Unlock exclusive content now!" |
+| "It's a small game about a ball that won't stop." | "The most innovative RPG experience ever made." |
 | "We're still working on this one. Here's where it's at." | "Coming soon™" with no details |
 
-## 6. What makes us distinct
+## 7. What makes us distinct
 
-*TBD: 2–3 statements about what people should say about Rollbard games that they don't say about others.*
-
-Starter prompts to react to:
-- One studio, two tables: tabletop and digital games that share worlds and ideas.
-- Built to be played tonight: low prep, quick to learn, easy to share.
-- *(your own)*
-
-## 7. Promises to players (optional)
-
-Draft, to be confirmed:
-- A free way to try every tabletop game (quickstart or demo).
-- Accessible design: readable layouts, clear rules, colour-safe components.
-- Fair pricing, with no tricks.
-
-*TBD: keep, edit, or remove.*
+- **Mechanics first.** Every Rollbard game starts with how it plays. The rules and systems are the heart of it, and everything else serves them.
+- **Designed, then refined.** Rules are tested, tuned and rewritten until each one earns its place, with nothing left in just for show.
