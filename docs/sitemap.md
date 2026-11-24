@@ -13,20 +13,20 @@ What rollbard.com is for and which pages it has. Later work (stack, pages, maili
 
 ## Sitemap
 
-| Route | Page | Main call to action |
-|---|---|---|
-| `/` | Home: tagline, the two featured games, latest devlog posts | Join the mailing list |
-| `/games` | All games, filterable by tabletop / video game and by status | Open a game |
-| `/games/terra-machina` | Game page: pitch, media, status, formats, free downloads | Mailing list signup / download |
-| `/games/supersphere` | Game page (same template) | Play in browser |
-| `/games/supersphere/play` | Full-screen browser version of SuperSphere | Play, then sign up |
-| `/devlog` | Devlog post list (markdown) | Read a post |
-| `/devlog/:slug` | Single devlog post | Mailing list signup |
-| `/free` | All free downloads in one place (sheets, quickstarts, demos) | Download |
-| `/about` | Studio, the designer, name origin, "Mechanics first / Designed, then refined" | Browse games |
-| `/press` | Press kit: boilerplate, logos, screenshots, fact sheet, contact | Download kit / get in touch |
-| `/contact` | Email plus press/business inquiries (may merge into `/about` later) | Send an email |
-| `/404` | On-brand "you rolled a 1" page | Go home |
+| Route                     | Page                                                                          | Main call to action            |
+| ------------------------- | ----------------------------------------------------------------------------- | ------------------------------ |
+| `/`                       | Home: tagline, the two featured games, latest devlog posts                    | Join the mailing list          |
+| `/games`                  | All games, filterable by tabletop / video game and by status                  | Open a game                    |
+| `/games/terra-machina`    | Game page: pitch, media, status, formats, free downloads                      | Mailing list signup / download |
+| `/games/supersphere`      | Game page (same template)                                                     | Play in browser                |
+| `/games/supersphere/play` | Full-screen browser version of SuperSphere                                    | Play, then sign up             |
+| `/devlog`                 | Devlog post list (markdown)                                                   | Read a post                    |
+| `/devlog/:slug`           | Single devlog post                                                            | Mailing list signup            |
+| `/free`                   | All free downloads in one place (sheets, quickstarts, demos)                  | Download                       |
+| `/about`                  | Studio, the designer, name origin, "Mechanics first / Designed, then refined" | Browse games                   |
+| `/press`                  | Press kit: boilerplate, logos, screenshots, fact sheet, contact               | Download kit / get in touch    |
+| `/contact`                | Email plus press/business inquiries (may merge into `/about` later)           | Send an email                  |
+| `/404`                    | On-brand "you rolled a 1" page                                                | Go home                        |
 
 Free downloads live on their game's page **and** are gathered on `/free`.
 

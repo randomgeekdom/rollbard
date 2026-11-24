@@ -1,24 +1,22 @@
-# rollbard
+# rollbard.com
 
-## Project setup
-```
-pnpm install
-```
+The website of **Rollbard Studios**: tabletop RPGs and video games.
 
-### Compiles and hot-reloads for development
-```
-pnpm run serve
-```
+Built with React Router (framework mode) on Vite, prerendered to static HTML. See [`docs/`](docs/) for the brand brief, sitemap and tech stack, and [`TODO.md`](TODO.md) for the work list.
 
-### Compiles and minifies for production
-```
-pnpm run build
-```
+## Requirements
 
-### Lints and fixes files
-```
-pnpm run lint
-```
+Node 24 and npm.
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+## Scripts
+
+| Command                | What it does                                         |
+| ---------------------- | ---------------------------------------------------- |
+| `npm install`          | Install dependencies                                 |
+| `npm run dev`          | Start the dev server with hot reload                 |
+| `npm run build`        | Build the static site into `build/client`            |
+| `npm run preview`      | Serve `build/client` locally, as it will be hosted   |
+| `npm run lint`         | Run ESLint                                           |
+| `npm run format`       | Format all files with Prettier                       |
+| `npm run format:check` | Check formatting without changing files              |
+| `npm run typecheck`    | Generate route types and run the TypeScript compiler |

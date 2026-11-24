@@ -4,19 +4,19 @@ The tools rollbard.com is built with, and the reasons for each choice. The site'
 
 ## Summary
 
-| Area | Choice |
-|---|---|
-| Framework | **React Router v7** (framework mode) on **Vite**, with **prerendering** |
-| Language | **TypeScript**, strict mode |
-| Routing | File-based routes in `app/routes/` |
-| Content | Markdown in `content/` with front matter, parsed at build time |
-| Styling | Plain CSS with custom-property design tokens + CSS Modules |
-| Package manager | **npm** |
-| Lint / format | ESLint (flat config) + Prettier |
-| Hosting | **Cloudflare** static hosting, auto-deploy from `master` |
-| Domain | Registered at **Hover**; DNS moves to Cloudflare |
+| Area            | Choice                                                                  |
+| --------------- | ----------------------------------------------------------------------- |
+| Framework       | **React Router v8** (framework mode) on **Vite**, with **prerendering** |
+| Language        | **TypeScript**, strict mode                                             |
+| Routing         | File-based routes in `app/routes/` (`flatRoutes`, folder routes)        |
+| Content         | Markdown in `content/` with front matter, parsed at build time          |
+| Styling         | Plain CSS with custom-property design tokens + CSS Modules              |
+| Package manager | **npm**                                                                 |
+| Lint / format   | ESLint (flat config) + Prettier                                         |
+| Hosting         | **Cloudflare** static hosting, auto-deploy from `master`                |
+| Domain          | Registered at **Hover**; DNS moves to Cloudflare                        |
 
-## Framework: React Router v7 + prerender
+## Framework: React Router v8 + prerender
 
 - Fully React and built on Vite.
 - With `prerender` set in `react-router.config.ts`, every route is built to static HTML. Search engines and share cards (Open Graph) see the full page. Once loaded, the page runs as a normal React app.
@@ -47,8 +47,8 @@ content/
 
 ## Tooling
 
-- **npm** (Node 24 / npm 11). The old `.npmrc` and `pnpm-lock.yaml` are removed in Clean slate.
-- **ESLint** flat config with `typescript-eslint`, `eslint-plugin-react`, `eslint-plugin-react-hooks` and `eslint-plugin-jsx-a11y`.
+- **npm** (Node 24 / npm 11, pinned in `.nvmrc` and `engines`).
+- **ESLint 9** flat config (the React and a11y plugins do not support ESLint 10 yet; TypeScript is held at 6.0 for `typescript-eslint`) with `typescript-eslint`, `eslint-plugin-react`, `eslint-plugin-react-hooks` and `eslint-plugin-jsx-a11y`.
 - **Prettier** for formatting.
 - Scripts: `dev`, `build`, `preview`, `lint`, `format`, `typecheck`.
 
@@ -61,3 +61,9 @@ content/
 ## SuperSphere
 
 SuperSphere (Phaser + TypeScript) is built separately. Its static output will be served at `/games/supersphere/play` from the site's static files. The SuperSphere play page item decides how the build gets there: a copy step, a submodule, or a separate deploy.
+
+## Conventions
+
+- Routes live in `app/routes/` and use React Router's flat-routes naming (`games.$slug.tsx` → `/games/:slug`).
+- A route that has its own stylesheet or helpers becomes a folder: `app/routes/<name>/route.tsx` next to its `styles.module.css`. Any other file loose in `app/routes/` is treated as a route.
+- Build output is `build/client` (static files to deploy). `build/server` is only used during prerendering and is not deployed.
