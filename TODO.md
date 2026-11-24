@@ -13,7 +13,7 @@ Status markers: `[ ]` todo · `[~]` in progress (design presented, awaiting deci
 - [x] **Site goals & sitemap** — Decide what the site must do (showcase games, build a mailing list, sell, host rules/downloads, devlog) and the page structure that serves it.
 - [x] **Tech stack decision** — React is decided. Choose the React setup (e.g. Vite + React SPA, Next.js, Astro with React islands), TypeScript or not, styling approach, and hosting/deploy target for rollbard.com.
 - [x] **Clean slate** — Delete everything from the old Vue scaffold (src, public, configs, package.json, lockfile, node_modules) and set up the chosen React stack, linting/formatting, and a working dev/build.
-- [ ] **Deployment pipeline** — Get a placeholder page live on rollbard.com with automatic deploys from `master`. Deploy `build/client`; run `npm run lint`, `typecheck` and `format:check` before the build.
+- [~] **Deployment pipeline** — Get a placeholder page live on rollbard.com with automatic deploys from `master`. Deploy `build/client`; run `npm run lint`, `typecheck` and `format:check` before the build.
 - [ ] **Move DNS to Cloudflare** — Add rollbard.com to Cloudflare, copy over any existing Hover DNS records (MX/TXT for email), then switch the nameservers at Hover to Cloudflare. Needed before the domain can point at the site.
 
 ## Phase 2 — Look & feel

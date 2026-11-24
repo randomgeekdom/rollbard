@@ -50,11 +50,12 @@ content/
 - **npm** (Node 24 / npm 11, pinned in `.nvmrc` and `engines`).
 - **ESLint 9** flat config (the React and a11y plugins do not support ESLint 10 yet; TypeScript is held at 6.0 for `typescript-eslint`) with `typescript-eslint`, `eslint-plugin-react`, `eslint-plugin-react-hooks` and `eslint-plugin-jsx-a11y`.
 - **Prettier** for formatting.
-- Scripts: `dev`, `build`, `preview`, `lint`, `format`, `typecheck`.
+- Scripts: `dev`, `build`, `preview`, `lint`, `format`, `format:check`, `typecheck`, and `ci` (all checks, then a build; run on every deploy).
 
 ## Hosting & domain
 
-- **Cloudflare** static hosting (Workers static assets / Pages) connected to the GitHub repo. Every push to `master` deploys to production, and other branches get preview URLs.
+- **Cloudflare Workers** static assets (`wrangler.jsonc`, no server code), connected to the GitHub repo with Workers Builds. Every push to `master` deploys to production, and other branches get preview URLs.
+- The build copies `__spa-fallback.html` to `404.html`, so unknown URLs get a real 404 status.
 - Free tier, global CDN and no bandwidth cap. That matters once SuperSphere is served from the site.
 - **rollbard.com stays registered at Hover.** Its nameservers will point to Cloudflare, so Cloudflare can serve the bare domain (`rollbard.com`). Hover can't point the bare domain at a CNAME. If Hover email or other services use the domain, copy their DNS records (MX, TXT) into Cloudflare before switching nameservers.
 

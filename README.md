@@ -20,3 +20,8 @@ Node 24 and npm.
 | `npm run format`       | Format all files with Prettier                       |
 | `npm run format:check` | Check formatting without changing files              |
 | `npm run typecheck`    | Generate route types and run the TypeScript compiler |
+| `npm run ci`           | All checks, then a build (what the deploy runs)      |
+
+## Deployment
+
+Cloudflare Workers Builds is connected to this repo. Every push to `master` runs `npm run ci` then `npx wrangler deploy`; if a check fails, nothing is published. Other branches get preview URLs through `npx wrangler versions upload`. Hosting settings are in `wrangler.jsonc`, response headers in `public/_headers`.
