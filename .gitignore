@@ -21,3 +21,6 @@ Thumbs.db
 
 # Wrangler (Cloudflare)
 .wrangler/
+
+# Playwright MCP (snapshots, screenshots)
+.playwright-mcp/
